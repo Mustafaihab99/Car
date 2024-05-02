@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #eaeaea;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    margin-right: 50px;
+}
+.tag{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 126px;
+    color: black;
+    transition: 1s;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    padding: 22px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 1s;
+}
+.link1{
+    text-decoration: none;
+    color: #1743e3;
+    padding: 22px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.tag:hover , .link:hover{
+    color: #1743e3;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 40px;
+}
+.social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    text-decoration: none;
+}
+.social i{
+    font-size: 24px;
+}
+.home{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 8% 0;
+    overflow: hidden;
+}
+.home-cont{
+    max-width: 650px;
+}
+h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+h3{
+    font-size: 40px;
+    color: #1743e3;
+}
+.home p{
+    font-size: 19px;
+    margin: 16px 0 29px;
+}
+.explore{
+    padding: 8px;
+    width: 130px;
+    background-color: #1743e3;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+.explore:hover{
+    width: 135px;
+    background-color: white;
+    color: #1743e3;
+    border-color: #1743e3;
+}
+.bord{
+    position: relative;
+    width: 420px;
+    height: 420px;
+    transform: rotate(45deg);
+}
+.in-bord{
+   position: absolute;
+   width: 96%;
+   height: 96%;
+   background-color: #eaeaea;
+   border: 25px solid #1743e3;
+  
+}
+.car{
+    position: absolute;
+    top: 87px;
+    left: 7px;
+    width: 434px;
+    height: 302px;
+    transform: rotate(-44deg);
+}
